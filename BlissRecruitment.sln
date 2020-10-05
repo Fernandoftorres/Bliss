@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{13DB9370-D429-4613-8F67-561294A9FACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{20F3C26E-43BB-4067-B63F-EC007FF81CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{402220F9-49FB-4051-BBC5-0451D9FAADF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{08C44277-D89E-4C2F-B8F2-36B06B4C4BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{9D46C671-8916-4AD3-96F2-1CAE7E96A5E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{554CAF06-5BF7-49E4-A507-002BAD928CEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Services.Api", "src\BlissRecruitment.Services.Api\BlissRecruitment.Services.Api.csproj", "{38B73B74-F039-4826-80B7-94773287E64D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Application", "src\BlissRecruitment.Application\BlissRecruitment.Application.csproj", "{A36A3A66-C03F-4B28-AD70-61AEF85A3049}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Infra.Data", "src\BlissRecruitment.Infra.Data\BlissRecruitment.Infra.Data.csproj", "{3FD11320-171A-49E7-B55E-9CC48124EA2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Infra.CrossCutting.Bus", "src\BlissRecruitment.Infra.CrossCutting.Bus\BlissRecruitment.Infra.CrossCutting.Bus.csproj", "{8BB8CDD1-F39F-47BC-90E3-442737CFC537}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Infra.CrossCutting.IoC", "src\BlissRecruitment.Infra.CrossCutting.IoC\BlissRecruitment.Infra.CrossCutting.IoC.csproj", "{05728901-DAE2-48AB-91B4-E95CA51C754D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Domain.Core", "src\BlissRecruitment.Domain.Core\BlissRecruitment.Domain.Core.csproj", "{871B52B2-EC3E-4646-8D26-9C491DC61149}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlissRecruitment.Domain", "src\BlissRecruitment.Domain\BlissRecruitment.Domain.csproj", "{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B73B74-F039-4826-80B7-94773287E64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B73B74-F039-4826-80B7-94773287E64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B73B74-F039-4826-80B7-94773287E64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B73B74-F039-4826-80B7-94773287E64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36A3A66-C03F-4B28-AD70-61AEF85A3049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36A3A66-C03F-4B28-AD70-61AEF85A3049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36A3A66-C03F-4B28-AD70-61AEF85A3049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36A3A66-C03F-4B28-AD70-61AEF85A3049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD11320-171A-49E7-B55E-9CC48124EA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD11320-171A-49E7-B55E-9CC48124EA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD11320-171A-49E7-B55E-9CC48124EA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD11320-171A-49E7-B55E-9CC48124EA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB8CDD1-F39F-47BC-90E3-442737CFC537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB8CDD1-F39F-47BC-90E3-442737CFC537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB8CDD1-F39F-47BC-90E3-442737CFC537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB8CDD1-F39F-47BC-90E3-442737CFC537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05728901-DAE2-48AB-91B4-E95CA51C754D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05728901-DAE2-48AB-91B4-E95CA51C754D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05728901-DAE2-48AB-91B4-E95CA51C754D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05728901-DAE2-48AB-91B4-E95CA51C754D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871B52B2-EC3E-4646-8D26-9C491DC61149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871B52B2-EC3E-4646-8D26-9C491DC61149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871B52B2-EC3E-4646-8D26-9C491DC61149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871B52B2-EC3E-4646-8D26-9C491DC61149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D46C671-8916-4AD3-96F2-1CAE7E96A5E5} = {08C44277-D89E-4C2F-B8F2-36B06B4C4BE6}
+		{554CAF06-5BF7-49E4-A507-002BAD928CEB} = {08C44277-D89E-4C2F-B8F2-36B06B4C4BE6}
+		{38B73B74-F039-4826-80B7-94773287E64D} = {13DB9370-D429-4613-8F67-561294A9FACA}
+		{A36A3A66-C03F-4B28-AD70-61AEF85A3049} = {20F3C26E-43BB-4067-B63F-EC007FF81CE5}
+		{3FD11320-171A-49E7-B55E-9CC48124EA2C} = {9D46C671-8916-4AD3-96F2-1CAE7E96A5E5}
+		{8BB8CDD1-F39F-47BC-90E3-442737CFC537} = {554CAF06-5BF7-49E4-A507-002BAD928CEB}
+		{05728901-DAE2-48AB-91B4-E95CA51C754D} = {554CAF06-5BF7-49E4-A507-002BAD928CEB}
+		{871B52B2-EC3E-4646-8D26-9C491DC61149} = {402220F9-49FB-4051-BBC5-0451D9FAADF7}
+		{AF15087A-0EA2-4D94-BF9C-A352B73FE8E5} = {402220F9-49FB-4051-BBC5-0451D9FAADF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA4494CB-C2E9-4618-9E01-F8073BC388C7}
+	EndGlobalSection
+EndGlobal
